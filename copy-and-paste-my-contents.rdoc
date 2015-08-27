@@ -1,7 +1,6 @@
-<!-- Link to external Stylesheet  Hosted from github -> rawgit CDN -->
+
 $("<link/>", { "rel": "stylesheet", "type": "text/css", "href": "https://cdn.rawgit.com/ChrisWhittemore/Spotfire-demo/master/style.css" }).appendTo("head”);
 
-<!-- I Assume spotfire is already propogating this content inside of an html wrapper based on the link attribute through javscript solution seen above, but I may be wrong. Try it with this reduced markup and let me know if you run into trouble. Please Remove these comments once you have read them, they should not be displayed client side -->
   <div class="spotfire-wrapper">
       <div class="col-xs-12 spotfire-container">
         <h2>Benchmark Dashboard </h2>
