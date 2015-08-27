@@ -1,4 +1,7 @@
-
+<!DOCTYPE html>
+<html>
+<head></head>
+<body>
   <div class="spotfire-wrapper">
       <div class="col-xs-12 spotfire-container">
         <h2>Benchmark Dashboard </h2>
@@ -132,6 +135,9 @@
       </div>
     </div>
 
+    </body>
+    </html>
+
     window.onload = init;
 
 $.when(
@@ -141,4 +147,4 @@ $.when(
     })
 ).done(function(){
        $('.spotfire-wrapper').init();
-});
+}); 
