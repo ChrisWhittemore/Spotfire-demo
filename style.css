@@ -35,6 +35,10 @@ body {
   color: #339cfc;
 }
 
+.spotfire-wrapper > div:first-of-type {
+  background-color: #339cfc;
+  color: #FFF;
+}
 
 .spotfire-container {
   background-color: white;
@@ -101,7 +105,7 @@ body {
 
 .spotfire-comparison-table th {
   color: #FFF;
-  background-color: ##339cfc;
+  background-color: #339cfc;
   padding: 5px 20px;
   width: 100%;
   white-space: nowrap;
