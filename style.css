@@ -100,8 +100,8 @@ body {
 }
 
 .spotfire-comparison-table th {
-  color: #4A4A4A;
-  background-color: #F5F5F5;
+  color: #FFF;
+  background-color: ##339cfc;
   padding: 5px 20px;
   width: 100%;
   white-space: nowrap;
