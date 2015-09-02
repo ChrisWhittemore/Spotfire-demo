@@ -326,10 +326,18 @@ body {
   }
 }
 
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: content-box;
+     -moz-box-sizing: content-box;
+          box-sizing: content-box;
+}
+
 .spotfire-wrapper *,
 .spotfire-wrapper *:before,
 .spotfire-wrapper *:after {
-  -webkit-box-sizing: border-box;
-     -moz-box-sizing: border-box;
-          box-sizing: border-box;
+  -webkit-box-sizing: border-box !important;
+     -moz-box-sizing: border-box !important;
+          box-sizing: border-box !important;
 }
