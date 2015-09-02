@@ -8,8 +8,8 @@ hr {
   opacity: 0.5;
 }
 
-HtmlTextArea {
-  padding: 0px;
+.HtmlTextArea {
+  height: 100% !important;
 }
 
 /* Typography
