@@ -4,9 +4,12 @@ body {
   background-color: #f1f1f1;
 }
 
-.spotfire-hr {
+hr {
   opacity: 0.5;
-  margin-bottom: 15px;
+}
+
+HtmlTextArea {
+  padding: 0px;
 }
 
 /* Typography
