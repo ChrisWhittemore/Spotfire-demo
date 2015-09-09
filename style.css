@@ -37,7 +37,8 @@ hr {
 }
 
 .spotfire-wrapper > div:first-of-type {
-  background-color: #339cfc;
+  /* background-color: #339cfc;*/
+  background-color: #326CA8;
   color: #FFF;
 }
 
@@ -106,7 +107,8 @@ hr {
 
 .spotfire-comparison-table th {
   color: #FFF;
-  background-color: #339cfc;
+  /* background-color: #339cfc;*/
+  background-color: #326CA8;
   padding: 5px 20px;
   width: 100%;
   white-space: nowrap;
